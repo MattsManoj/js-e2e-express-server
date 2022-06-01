@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('SourceCode') {
             steps {
-                git branch: 'main', url: 'https://github.com/MattsManoj/js-e2e-express-server.git'
+                git branch: 'master', url: 'https://github.com/MattsManoj/js-e2e-express-server.git'
             }
         }
         stage('Build') {
